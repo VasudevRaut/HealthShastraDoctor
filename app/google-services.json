@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "8565370268",
+    "project_id": "healthshastra",
+    "storage_bucket": "healthshastra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8565370268:android:3ef592d4058138046bec59",
+        "android_client_info": {
+          "package_name": "com.example.healthshastradr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTWVRLBj1mDxu1XuxH2GxtMz18FASWjmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

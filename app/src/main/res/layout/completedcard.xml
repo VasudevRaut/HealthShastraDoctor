@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:orientation="horizontal"
+    android:padding="10sp"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/schedulecard">
+
+
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+
+            <LinearLayout
+                android:layout_marginStart="20dp"
+                android:layout_weight="3"
+                android:id="@+id/imageview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+           >
+
+                <ImageView
+                    android:id="@+id/dish_img1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/personpphoto"></ImageView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:id="@+id/cust_name_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imageview"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:id="@+id/med_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Vasudev Pharmacy"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"></TextView>
+
+
+                <ImageView
+
+                    android:id="@+id/platform"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/msg" />
+            </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+            <!--        <TextView-->
+            <!--            android:id="@+id/cust_preference"-->
+            <!--            android:layout_width="80dp"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_below="@+id/pro_type"-->
+            <!--            android:layout_toRightOf="@+id/imageview"-->
+            <!--            android:layout_marginLeft="20dp"-->
+            <!--            android:layout_marginBottom="-10dp"-->
+            <!--            android:layout_marginTop="0dp"-->
+            <!--            android:text="2BHK"-->
+            <!--            android:textColor="#7A7979"-->
+            <!--            android:textSize="12sp">-->
+
+            <!--        </TextView>-->
+
+            <!--        <TextView-->
+            <!--            android:id="@+id/cust_budget"-->
+            <!--            android:layout_width="50dp"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_below="@+id/cust_project"-->
+            <!--            android:layout_alignRight="@+id/cust_preference"-->
+            <!--            android:layout_marginTop="0dp"-->
+            <!--            android:layout_marginBottom="-10dp"-->
+            <!--            android:layout_marginRight="-50dp"-->
+            <!--            android:layout_toRightOf="@+id/cust_preference"-->
+            <!--            android:text="₹40lac"-->
+            <!--            android:textColor="#7A7979"-->
+            <!--            android:textSize="12sp">-->
+            <!--        </TextView>-->
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+                <ImageView
+                    android:layout_weight="3"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/watch"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="02:00pm To 3.00pm"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/completed"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:text="Completed"/>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>
